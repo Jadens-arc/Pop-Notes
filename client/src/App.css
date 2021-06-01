@@ -16,14 +16,23 @@ button {
   width: fit-content;
 }
 
+hr {
+  color: #b4a5a5;
+  border-color: #b4a5a5;
+  margin: 30px 0px;
+}
+
+
 
 .container {
   display: flex;
   flex-direction: column;
-  margin: 10px 0 10px 0;
+  margin: 20px 0 20px 0;
   padding: 18px;
   border: 2px solid #b4a5a5;
   border-radius: 10px;
+  color: #b4a5a5;
+  text-decoration: none;
 }
 
 .input {
