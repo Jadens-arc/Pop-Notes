@@ -10,6 +10,8 @@ body {
   background-color: #151515;
   color: #b4a5a5;
   padding: 20px;
+  width: 50%;
+  margin: 0 auto;
 }
 
 button {
@@ -69,4 +71,11 @@ hr {
   bottom: 25px;
   right: 25px;
   transition: all 0.2s ease;
+}
+
+
+@media screen and (max-width: 750px) {
+  body {
+    width: 100%;
+  }
 }
