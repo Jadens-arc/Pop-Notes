@@ -17,12 +17,10 @@ button {
 }
 
 hr {
-  color: #b4a5a5;
-  border-color: #b4a5a5;
+  color: #b4a5a542;
+  border-color: #b4a5a53a;
   margin: 30px 0px;
 }
-
-
 
 .container {
   display: flex;
@@ -56,4 +54,19 @@ hr {
   border-radius: 10px;
   background-color: transparent;
   color: #b4a5a5;
+}
+
+.scrollTopBtn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  background-color: #b4a5a5;
+  color: white;
+  font-weight: 900;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  transition: all 0.2s ease;
 }
